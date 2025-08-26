@@ -64,44 +64,44 @@ Wens de patiënt een fijne dag. Controleer na afloop van het gesprek of alle geg
 Let op: laat voor andere wensen de patiënt zelf contact opnemen met de polikliniek.
 
 ## Mogelijke problemen
-Probleem:
+* Probleem:
 Er staan meerdere telefoonnummers bij de patiënt.
-Oplossing
+* Oplossing
 Probeer ieder telefoonnummer minstens 2 keer. In de ‘opmerking’ kolom staat soms een uitleg bij het geselecteerde telefoonnummer.
 
-Probleem:
+* Probleem:
 Er wordt niet opgenomen.
-Oplossing
+* Oplossing
 Als er een ander nummer geregistreerd staat, probeer die dan te bellen. Doe maximaal 2 belpogingen per telefoonnummer. Indien alle contactgegevens onjuist zijn, selecteer de optie ‘Contactgegevens onjuist’ in het ‘bijzonderheden’ keuzemenu.
 
-Probleem:
+* Probleem:
 De patiënt kan zich niet correct identificeren.
-Oplossing
+* Oplossing
 Noteer in de opmerking kolom dat de contactgegevens onjuist zijn voor de patiënt, of pas het telefoonnummer aan in de ‘Telefoonnr’ kolom. Probeer daarna indien mogelijk een ander nummer. Indien alle contactgegevens onjuist zijn, selecteer de optie ‘Contactgegevens onjuist’ in het ‘bijzonderheden’ keuzemenu.
 
-Probleem:
+* Probleem:
 De telefoon gaat niet over.
-Oplossing
+* Oplossing
 Noteer in de opmerking kolom dat de contactgegevens onjuist zijn voor de patiënt, of pas het telefoonnummer aan in de ‘Telefoonnr’ kolom. Probeer daarna indien mogelijk een ander nummer. Indien alle contactgegevens onjuist zijn, selecteer de optie ‘Contactgegevens onjuist’ in het ‘bijzonderheden’ keuzemenu.
 
-Probleem:
+* Probleem:
 De patiënt wist niet van de afspraak of is deze vergeten.
-Oplossing
+* Oplossing
 De afspraken in de bellijst komen overeen met de administratie van het EMC. Als er een afspraak staat, dan wordt de patiënt verwacht. Dit is het scenario waarmee door het telefoontje patiënten komen opdagen. Registreer in de bijzonderheden kolom dat de patiënt de afspraak was vergeten.
 
-Probleem:
+* Probleem:
 De patiënt wil de afspraak aanpassen.
-Oplossing
+* Oplossing
 Selecteer in het keuzemenu ‘Bijzonderheden’ de optie ‘Patiënt wil afspraak verplaatsen’.
 Let op: de patiënt wordt alleen gecontacteerd als deze bijzonderheden optie is gekozen.
 
-Probleem:
+* Probleem:
 De patiënt wil de afspraak annuleren.
-Oplossing
+* Oplossing
 Selecteer in het keuzemenu ‘Bijzonderheden’ de optie ‘Patiënt wil afspraak annuleren’.
 Let op: de patiënt wordt alleen gecontacteerd als deze bijzonderheden optie is gekozen.
 
-Probleem:
+* Probleem:
 De patiënt heeft medische of inhoudelijke vragen over de afspraak.
-Oplossing
+* Oplossing
 Als telefonist kun je niet ingaan op medisch inhoudelijke vragen. Voor deze vragen kan de patiënt zelf contact opnemen met de polikliniek. Het telefoonnummer van de polikliniek kun je vinden op Info poliklinieken.
