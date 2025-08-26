@@ -1,0 +1,43 @@
+{
+    "Ontwikkel":{
+        "readserver"             : ""
+        , "fallback_readserver"  : ""
+        , "readdatabase"         : ""
+        , "fallback_readdatabase": ""
+        , "readschema"           : ""
+        , "fallback_readschema"  : ""
+        , "writeserver"          : ""
+        , "writedatabase"        : ""
+        , "writeschema"          : ""
+        , "tabel_voorspellingen" : ""
+    }
+    , "Acceptatie":{
+        "readserver"             : ""
+        , "fallback_readserver"  : ""
+        , "readdatabase"         : ""
+        , "fallback_readdatabase": ""
+        , "readschema"           : ""
+        , "fallback_readschema"  : ""
+        , "writeserver"          : ""
+        , "writedatabase"        : ""
+        , "writeschema"          : ""
+        , "tabel_voorspellingen" : ""
+    }
+    , "Productie":{
+        "readserver"             : ""
+        , "fallback_readserver"  : ""
+        , "readdatabase"         : ""
+        , "fallback_readdatabase": ""
+        , "readschema"           : ""
+        , "fallback_readschema"  : ""
+        , "writeserver"          : ""
+        , "writedatabase"        : ""
+        , "writeschema"          : ""
+        , "tabel_voorspellingen" : ""
+    }
+    , "DBA_server":{
+        "server"             : ""
+        , "database"         : ""
+        , "schema"           : ""
+    }
+}

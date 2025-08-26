@@ -1,0 +1,94 @@
+{
+    "modus": "create_train",
+    "train_range": [
+        "2020-01-01",                           Ondergrens periode populatie
+        "2022-01-01"                            Bovengrens periode populatie
+    ],                      
+    "holdout_range": [                      
+        "2022-01-01",                           Ondergrens periode populatie
+        "2022-06-01"                            Bovengrens periode populatie
+    ],   
+    "afspr_gesch": 365,                         Aantal dagen om terug te kijken voor de historische features
+    "models": [
+                                                lijst met modellen/poliklinieken die meedoen (bijv Dermatologie, etc)
+    ],
+    "modelclusters": {                          Lijst met verschillende clusteringen van poliklinieken, bijv. o.b.v. medische inhoud of organisatorische relatie
+        "clusternaam" : [
+            lijst met modelnamen
+        ],
+        "Alles": [
+            het 'alles' cluster bevat alle poliklinieken
+        ]
+    },
+    "modelmapping_voorspel" : {                 Per polikliniek welk model gebruikt moet worden om de voorspelling te genereren
+        "polikliniek"                  : "model naam",
+        "polikliniek"                  : "model naam",
+        etc.
+    },
+    "model_hyperparameters": {                  Per polikliniek en clustermodel een lijst met hyperparamteres voor het model
+        "polikliniek"                   : {hyperparameters},
+        "polikliniek"                   : {hyperparameters},
+        ....
+        "Alles"                         : {hyperparameters}
+            },
+    "feature_list": [                           Lijst met features om te gebruiken (deze features worden in het Erasmus MC gebruikt)
+        "distance",
+        "LEEFTIJD",
+        "afspraken_dag",
+        "rolling_min_op_tijd",
+        "dagen_tot_afspraak",
+        "dagen_sinds_afspraak",
+        "verplaatst_door_pat",
+        "rolling_count_no_show",
+        "rolling_count_verplaatsing_door_pat", 
+        "rolling_count_show",
+        "vorige_voldaan",
+        "dagen_sinds_noshow",
+        "weekdag",
+        "maand",
+        "constype_code"
+    ],
+    "beldienst_param": {                                    Parameters voor de beldienst
+        "prop_pos": 0.20,                                   Welk percentage te bellen per dag
+        "test_group_fraction": 0.65                         Welke percentage in de testgroep komt
+    },
+    "agendas": {                                            Hier worden de (zelfbedachte) modelnamen voor de poliklinieken gedefinieerd a.d.h.v. de agenda codes uit de database
+        "polikliniek naam": [
+            "Unieke code(s) voor de agenda/polikliniek uit database"
+        ],
+        etc
+    },
+    "subagendas": {`                                        Een model kan ook gedefinieerd worden a.d.h.v. een lijst subagenda codes
+        "polikliniek naam": [
+            "Unieke code(s) voor de subagenda(s)/polikliniek uit database"
+        ]
+    },
+    "subagendas_exclude": {                                 Soms zijn bepaalde subagenda's (spreekuren) niet geschikt voor de beldienst, hier wordt opgegeven welke eruit gefilterd moeten worden zodat er geen voorspelling voor gegenereerd wordt
+        "modelnaam" : {
+            "include": "False",
+            "subagendas": [
+            lijst met subagenda codes die niet meegenomen moeten worden
+            ]
+        }, 
+        "modelnaam" : {
+            "include": "False",
+            "subagendas": [
+            lijst met subagenda codes die niet meegenomen moeten worden
+            ]
+        }, 
+         
+        },
+    "afspraakcodes": {                                      Soms zijn bepaalde subagenda's (spreekuren) niet geschikt voor de beldienst, hier wordt opgegeven welke eruit gefilterd moeten worden zodat er geen voorspelling voor gegenereerd wordt
+            "modelnaam" : {
+            "include": "False",
+            "subagendas": [
+            lijst met afspraakcodes die niet meegenomen moeten worden
+            ]
+        }, 
+        "modelnaam" : {
+            "include": "False",
+            "subagendas": [
+            lijst met afspraakcodes die niet meegenomen moeten worden
+            ]
+        }
+}
